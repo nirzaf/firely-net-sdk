@@ -286,8 +286,7 @@ namespace Hl7.Fhir.Model
             return Due is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -751,8 +750,7 @@ namespace Hl7.Fhir.Model
           return OutcomeReference?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

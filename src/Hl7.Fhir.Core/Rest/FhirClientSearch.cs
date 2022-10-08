@@ -12,6 +12,7 @@ using System;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+#pragma warning disable CS1574
 
 namespace Hl7.Fhir.Rest
 {
@@ -174,9 +175,7 @@ namespace Hl7.Fhir.Rest
         {
             return SearchUsingPostAsync(ModelInfo.GetFhirTypeNameForType(typeof(TResource)), criteria, includes, pageSize, summary, revIncludes);
         }
-
-
-
+        
         ///<inheritdoc cref="SearchUsingPostAsync{TResource}(string[], (string path, IncludeModifier modifier)[], int?, SummaryType?, (string path, IncludeModifier modifier)[])"/>
         public Task<Bundle> SearchUsingPostAsync<TResource>(string[] criteria = null, string[] includes = null, int? pageSize = null,
           SummaryType? summary = null, string[] revIncludes = null)

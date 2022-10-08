@@ -280,8 +280,7 @@ namespace Hl7.Fhir.Model
             return ModeElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -449,8 +448,7 @@ namespace Hl7.Fhir.Model
             return VersionElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -580,8 +578,7 @@ namespace Hl7.Fhir.Model
             return Exclude is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -691,8 +688,7 @@ namespace Hl7.Fhir.Model
             return Designation?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -839,8 +835,7 @@ namespace Hl7.Fhir.Model
             return Use is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -950,8 +945,7 @@ namespace Hl7.Fhir.Model
             return Designation?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1098,8 +1092,7 @@ namespace Hl7.Fhir.Model
             return Use is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1933,8 +1926,7 @@ namespace Hl7.Fhir.Model
           return LimitedExpansionElement is not null;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

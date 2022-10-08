@@ -277,8 +277,7 @@ namespace Hl7.Fhir.Model
             return Role?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -434,8 +433,7 @@ namespace Hl7.Fhir.Model
             return Signature?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -749,8 +747,7 @@ namespace Hl7.Fhir.Model
             return Net is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1162,8 +1159,7 @@ namespace Hl7.Fhir.Model
             return Group?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1308,8 +1304,7 @@ namespace Hl7.Fhir.Model
             return Role?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1622,8 +1617,7 @@ namespace Hl7.Fhir.Model
             return Net is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1742,8 +1736,7 @@ namespace Hl7.Fhir.Model
             return Content is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1855,8 +1848,7 @@ namespace Hl7.Fhir.Model
             return Content is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1968,8 +1960,7 @@ namespace Hl7.Fhir.Model
             return Content is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -2589,8 +2580,7 @@ namespace Hl7.Fhir.Model
           return Rule?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

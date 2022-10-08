@@ -10,6 +10,7 @@
 		<PackageTags>HL7;FHIR;Profile;Metadata;Validation;Publication;Schematron;Schema;Firely;SDK</PackageTags>
 		<AssemblyName>Hl7.Fhir.STU3.Specification</AssemblyName>
 		<RootNamespace>Hl7.Fhir.Specification</RootNamespace>
+		<TargetFrameworks>net452;net48;net6.0;netstandard2.0</TargetFrameworks>
 	</PropertyGroup>
 
 	<ItemGroup>

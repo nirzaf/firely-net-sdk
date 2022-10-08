@@ -246,8 +246,7 @@ namespace Hl7.Fhir.Model
             return Actor is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -398,8 +397,7 @@ namespace Hl7.Fhir.Model
             return Link is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -911,8 +909,7 @@ namespace Hl7.Fhir.Model
           return PresentedForm?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

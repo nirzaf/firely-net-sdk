@@ -288,8 +288,7 @@ namespace Hl7.Fhir.Model
             return ProductionSpecElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -620,8 +619,7 @@ namespace Hl7.Fhir.Model
           return LanguageCode is not null;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -638,7 +636,6 @@ namespace Hl7.Fhir.Model
       if (ProductionSpecification?.Any() == true) yield return new KeyValuePair<string,object>("productionSpecification",ProductionSpecification);
       if (LanguageCode is not null) yield return new KeyValuePair<string,object>("languageCode",LanguageCode);
     }
-
   }
 
 }

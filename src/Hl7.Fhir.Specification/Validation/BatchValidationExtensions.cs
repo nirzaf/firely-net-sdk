@@ -19,7 +19,7 @@ namespace Hl7.Fhir.Validation
     {
         public static OperationOutcome Combine(this Validator validator, string subjects, BatchValidationMode mode, ITypedElement instance, IEnumerable<Func<OperationOutcome>> validations)
         {
-            if (validations.Count() == 0)
+            if (!validations.Any())
                 return new OperationOutcome();
 
             if (validations.Count() == 1)

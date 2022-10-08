@@ -365,8 +365,7 @@ namespace Hl7.Fhir.Model
             return SupportingPatientInformation?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -523,8 +522,7 @@ namespace Hl7.Fhir.Model
             return ValueElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -752,8 +750,7 @@ namespace Hl7.Fhir.Model
             return SeriesElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -898,8 +895,7 @@ namespace Hl7.Fhir.Model
           return Recommendation?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

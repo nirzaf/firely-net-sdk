@@ -605,8 +605,7 @@ namespace Hl7.Fhir.Model
             return ReleaseDateElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -774,8 +773,7 @@ namespace Hl7.Fhir.Model
             return UrlElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1092,8 +1090,7 @@ namespace Hl7.Fhir.Model
             return CompartmentElement?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1309,8 +1306,7 @@ namespace Hl7.Fhir.Model
             return Certificate?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1478,8 +1474,7 @@ namespace Hl7.Fhir.Model
             return BlobElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -2093,8 +2088,7 @@ namespace Hl7.Fhir.Model
             return SearchParam?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -2275,8 +2269,7 @@ namespace Hl7.Fhir.Model
             return DocumentationElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -2523,8 +2516,7 @@ namespace Hl7.Fhir.Model
             return DocumentationElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -2694,8 +2686,7 @@ namespace Hl7.Fhir.Model
             return DocumentationElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -2847,8 +2838,7 @@ namespace Hl7.Fhir.Model
             return Definition is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -3080,8 +3070,7 @@ namespace Hl7.Fhir.Model
             return Event?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -3234,8 +3223,7 @@ namespace Hl7.Fhir.Model
             return AddressElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -3388,8 +3376,7 @@ namespace Hl7.Fhir.Model
             return Definition is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -3708,8 +3695,7 @@ namespace Hl7.Fhir.Model
             return DocumentationElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -3906,8 +3892,7 @@ namespace Hl7.Fhir.Model
             return Profile is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -4841,8 +4826,7 @@ namespace Hl7.Fhir.Model
           return Document?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

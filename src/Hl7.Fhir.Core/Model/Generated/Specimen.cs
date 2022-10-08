@@ -274,8 +274,7 @@ namespace Hl7.Fhir.Model
             return BodySite is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -473,8 +472,7 @@ namespace Hl7.Fhir.Model
             return Time is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -712,8 +710,7 @@ namespace Hl7.Fhir.Model
             return Additive is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1094,8 +1091,7 @@ namespace Hl7.Fhir.Model
           return Note?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1114,9 +1110,7 @@ namespace Hl7.Fhir.Model
       if (Container?.Any() == true) yield return new KeyValuePair<string,object>("container",Container);
       if (Note?.Any() == true) yield return new KeyValuePair<string,object>("note",Note);
     }
-
   }
-
 }
 
 // end of file

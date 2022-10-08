@@ -344,8 +344,7 @@ namespace Hl7.Fhir.Model
             return InstructionElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -479,8 +478,7 @@ namespace Hl7.Fhir.Model
             return Amount is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -610,8 +608,7 @@ namespace Hl7.Fhir.Model
             return FoodType is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -841,8 +838,7 @@ namespace Hl7.Fhir.Model
             return InstructionElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1177,8 +1173,7 @@ namespace Hl7.Fhir.Model
             return AdministrationInstructionElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1338,8 +1333,7 @@ namespace Hl7.Fhir.Model
             return Rate is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1719,8 +1713,7 @@ namespace Hl7.Fhir.Model
           return EnteralFormula is not null;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

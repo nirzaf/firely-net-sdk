@@ -244,8 +244,7 @@ namespace Hl7.Fhir.Model
             return Amount is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -399,8 +398,7 @@ namespace Hl7.Fhir.Model
             return Batch?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -535,8 +533,7 @@ namespace Hl7.Fhir.Model
             return Amount is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -702,8 +699,7 @@ namespace Hl7.Fhir.Model
             return ExpirationDateElement is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -1026,8 +1022,7 @@ namespace Hl7.Fhir.Model
           return Image?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

@@ -334,8 +334,7 @@ namespace Hl7.Fhir.Model
           return Coverage is not null;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

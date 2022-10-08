@@ -262,8 +262,7 @@ namespace Hl7.Fhir.Model
             return Assessment?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -397,8 +396,7 @@ namespace Hl7.Fhir.Model
             return Detail?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -881,8 +879,7 @@ namespace Hl7.Fhir.Model
           return Note?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

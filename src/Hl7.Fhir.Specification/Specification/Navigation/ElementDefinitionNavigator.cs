@@ -67,7 +67,10 @@ namespace Hl7.Fhir.Specification.Navigation
 
         /// <summary>
         /// Create a new <see cref="ElementDefinitionNavigator"/> instance to navigate the elements
-        /// in the <see cref="StructureDefinition.Snapshot"/> component of the specified structure definition.
+        /// in the <see>
+        ///     <cref>StructureDefinition.Snapshot</cref>
+        /// </see>
+        /// component of the specified structure definition.
         /// </summary>
         public static ElementDefinitionNavigator ForSnapshot(StructureDefinition sd)
         {
@@ -79,7 +82,10 @@ namespace Hl7.Fhir.Specification.Navigation
 
         /// <summary>
         /// Create a new <see cref="ElementDefinitionNavigator"/> instance to navigate the elements
-        /// in the <see cref="StructureDefinition.Differential"/> component of the specified structure definition.
+        /// in the <see>
+        ///     <cref>StructureDefinition.Differential</cref>
+        /// </see>
+        /// component of the specified structure definition.
         /// </summary>
         public static ElementDefinitionNavigator ForDifferential(StructureDefinition sd)
         {

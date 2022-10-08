@@ -364,8 +364,7 @@ namespace Hl7.Fhir.Model
             return HeaderElement?.Any() == true;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -707,8 +706,7 @@ namespace Hl7.Fhir.Model
           return Tag?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()

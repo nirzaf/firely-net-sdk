@@ -243,8 +243,7 @@ namespace Hl7.Fhir.Model
             return Author is not null;
           default:
             return base.TryGetValue(key, out value);
-        };
-
+        }
       }
 
       protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
@@ -652,8 +651,7 @@ namespace Hl7.Fhir.Model
           return Mitigation?.Any() == true;
         default:
           return base.TryGetValue(key, out value);
-      };
-
+      }
     }
 
     protected override IEnumerable<KeyValuePair<string, object>> GetElementPairs()
