@@ -11,6 +11,7 @@
 		<PackageTags>HL7;FHIR;REST;parse;serialize;class;model;Firely;SDK</PackageTags>
 		<AssemblyName>Hl7.Fhir.STU3.Core</AssemblyName>
 		<RootNamespace>Hl7.Fhir</RootNamespace>
+		<TargetFrameworks>net452;net6.0;netstandard2.1</TargetFrameworks>
 	</PropertyGroup>
 
 	<ItemGroup Condition=" '$(TargetFramework)' != 'net452'">
